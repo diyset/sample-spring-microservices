@@ -1,4 +1,4 @@
-package pl.piomin.microservices.customer.model;
+package pl.piomin.microservices.order.model;
 
 public enum CustomerType {
 

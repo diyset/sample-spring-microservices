@@ -1,13 +1,13 @@
-package pl.piomin.microservices.customer.exceptions;
+package pl.piomin.microservices.order.exceptions;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(org.springframework.http.HttpStatus.NOT_FOUND)
-public class CustomerNotFoundException extends Exception {
+public class OrderNotFoundException extends Exception {
 
 	private static final long serialVersionUID = 1L;
 	
-	public CustomerNotFoundException(String pesel) {
+	public OrderNotFoundException(String pesel) {
 		super("No such order: " + pesel);
 	}
 	

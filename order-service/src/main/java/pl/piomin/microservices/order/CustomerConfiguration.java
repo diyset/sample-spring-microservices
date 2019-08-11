@@ -1,4 +1,4 @@
-package pl.piomin.microservices.customer;
+package pl.piomin.microservices.order;
 
 import org.springframework.cloud.sleuth.sampler.AlwaysSampler;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package pl.piomin.microservices.customer;
+package pl.piomin.microservices.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
